@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logo1 {
+    height: 200px;
+    margin-left: 50px;
+}
+
+button {
+    color: white;
+    background-color: #c51111;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 40px;
+    transition: 0.5s;
+
+}
+
+button:hover {
+    transform: translateY(-20px);
+
+
+}
+
+.logo2 {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa1 {
+    width: 40%;
+}
+
+.video-1 {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.caixa-mae {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+p {
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.link-what img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.cabesario {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+
+}
+
+.cabesario img {
+    height: 100px;
+
+}
+
+.cabesario a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.cabesario a:hover {
+
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+    color: #c51111;
+
+}
+
+.fale-conosco {
+    background-color: white;    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left:-300px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+    transition: left 1s ease-in-out;
+
+
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5 px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+
+}
+
+.mascara1 {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+}
